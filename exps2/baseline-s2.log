@@ -1,0 +1,12 @@
+** RAPL-logger - 2 packages - Sampling freq.  10.0 Hz - Logfiles 0-3: /tmp/rapllog+1593933209
+** RAPL-logger - Profiling: /usr/bin/sleep 10
+** RAPL-logger - Process terminated, computing results
+Recorded wall time (s):  10.0030
+Domain intel-rapl:0 (package-1) energy consumption (j): 325.6749
+Domain intel-rapl:0 (package-1) avg. power consumption (W):  32.5577
+Domain intel-rapl:0/intel-rapl:0:0 (dram) energy consumption (j):  15.4369
+Domain intel-rapl:0/intel-rapl:0:0 (dram) avg. power consumption (W):   1.5432
+Domain intel-rapl:1 (package-0) energy consumption (j): 397.2591
+Domain intel-rapl:1 (package-0) avg. power consumption (W):  39.7140
+Domain intel-rapl:1/intel-rapl:1:0 (dram) energy consumption (j):  15.9671
+Domain intel-rapl:1/intel-rapl:1:0 (dram) avg. power consumption (W):   1.5962

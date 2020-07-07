@@ -1,0 +1,45 @@
+** RAPL-logger - 2 packages - Sampling freq.  10.0 Hz - Logfiles 0-3: /tmp/rapllog+1593935226
+** RAPL-logger - Profiling: ../allocator 18 ../stream.bin
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 536870912 (elements), Offset = 0 (elements)
+Memory per array = 4096.0 MiB (= 4.0 GiB).
+Total memory required = 12288.0 MiB (= 12.0 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 631332 microseconds.
+   (= 631332 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            9159.6     0.957982     0.937805     1.027667
+Scale:           9027.2     0.981761     0.951563     1.163893
+Add:             9601.7     1.431828     1.341937     1.560059
+Triad:           9550.1     1.401021     1.349187     1.549971
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+1
+sched_getaffinity = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+sched_getcpu = 39
+** RAPL-logger - Process terminated, computing results
+Recorded wall time (s):  56.2700
+Domain intel-rapl:0 (package-1) energy consumption (j): 1854.3071
+Domain intel-rapl:0 (package-1) avg. power consumption (W):  32.9537
+Domain intel-rapl:0/intel-rapl:0:0 (dram) energy consumption (j):  87.9818
+Domain intel-rapl:0/intel-rapl:0:0 (dram) avg. power consumption (W):   1.5636
+Domain intel-rapl:1 (package-0) energy consumption (j): 2482.6785
+Domain intel-rapl:1 (package-0) avg. power consumption (W):  44.1208
+Domain intel-rapl:1/intel-rapl:1:0 (dram) energy consumption (j): 169.2223
+Domain intel-rapl:1/intel-rapl:1:0 (dram) avg. power consumption (W):   3.0073
