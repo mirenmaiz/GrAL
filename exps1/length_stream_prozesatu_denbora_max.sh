@@ -8,13 +8,13 @@ m0=`cat baseline.log | grep "Recorded wall time" | cut -d ":" -f 2`
 echo $m0
 
 
-for l in 1 2 3 4 5 6 7 8; do
+for l in 1 4 8 12 16 20 24 28 32 36 40 44 48 52; do
 for i in 0; do
 	p1=`cat coreka_stream-$i-l$l.log | grep "Recorded wall time" | cut -d ":" -f 2`
 	echo $p1
 done
 
-for i in 1; do
+for i in 10; do
 	p1=`cat coreka_stream-$i-l$l.log | grep "Recorded wall time" | cut -d ":" -f 2`
 	echo $p1
 done

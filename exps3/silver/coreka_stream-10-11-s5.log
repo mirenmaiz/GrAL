@@ -1,0 +1,75 @@
+** RAPL-logger - 2 packages - Sampling freq.  10.0 Hz - Logfiles 0-3: /tmp/rapllog+1594873637
+** RAPL-logger - Profiling: ../../allocator 10 ../../stream.bin 11 ../../stream.bin
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 671088640 (elements), Offset = 0 (elements)
+Memory per array = 5120.0 MiB (= 5.0 GiB).
+Total memory required = 15360.0 MiB (= 15.0 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 589516 microseconds.
+   (= 589516 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           10998.9     0.991815     0.976227     1.001111
+Scale:          10870.1     0.996915     0.987791     1.006247
+Add:            11498.1     1.401711     1.400760     1.402709
+Triad:          11547.9     1.406681     1.394723     1.421011
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 671088640 (elements), Offset = 0 (elements)
+Memory per array = 5120.0 MiB (= 5.0 GiB).
+Total memory required = 15360.0 MiB (= 15.0 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 592524 microseconds.
+   (= 592524 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           10827.1     1.000238     0.991714     1.009601
+Scale:          10780.7     1.006146     0.995982     1.014018
+Add:            11385.7     1.416930     1.414589     1.431789
+Triad:          11429.4     1.419664     1.409178     1.427477
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+2
+sched_getaffinity = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+sched_getcpu = 18
+** RAPL-logger - Process terminated, computing results
+Recorded wall time (s):  60.2000
+Domain intel-rapl:0 (package-0) energy consumption (j): 1278.4198
+Domain intel-rapl:0 (package-0) avg. power consumption (W):  21.2362
+Domain intel-rapl:0/intel-rapl:0:0 (dram) energy consumption (j):  44.1381
+Domain intel-rapl:0/intel-rapl:0:0 (dram) avg. power consumption (W):   0.7332
+Domain intel-rapl:1 (package-1) energy consumption (j): 1943.9260
+Domain intel-rapl:1 (package-1) avg. power consumption (W):  32.2911
+Domain intel-rapl:1/intel-rapl:1:0 (dram) energy consumption (j): 442.1627
+Domain intel-rapl:1/intel-rapl:1:0 (dram) avg. power consumption (W):   7.3449

@@ -1,4 +1,4 @@
-** RAPL-logger - 2 packages - Sampling freq.  10.0 Hz - Logfiles 0-3: /tmp/rapllog+1594059148
+** RAPL-logger - 2 packages - Sampling freq.  10.0 Hz - Logfiles 0-3: /tmp/rapllog+1594184127
 ** RAPL-logger - Profiling: ../allocator 0 ../stream.bin
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
@@ -13,8 +13,8 @@ Each kernel will be executed 10 times.
  will be used to compute the reported bandwidth.
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 918609 microseconds.
-   (= 918609 clock ticks)
+Each test below will take on the order of 458868 microseconds.
+   (= 458868 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -23,23 +23,23 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:            9134.4     0.986934     0.940395     1.171703
-Scale:           9004.0     1.031993     0.954014     1.219109
-Add:             9616.6     1.403335     1.339861     1.597653
-Triad:           9563.4     1.384795     1.347320     1.448904
+Copy:           11695.3     0.738789     0.734476     0.750880
+Scale:          11655.1     0.747775     0.737009     0.758534
+Add:            12379.6     1.051563     1.040820     1.060432
+Triad:          12270.9     1.060451     1.050039     1.062715
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
 1
-sched_getaffinity = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-sched_getcpu = 38
+sched_getaffinity = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+sched_getcpu = 6
 ** RAPL-logger - Process terminated, computing results
-Recorded wall time (s):  57.4940
-Domain intel-rapl:0 (package-1) energy consumption (j): 1900.7014
-Domain intel-rapl:0 (package-1) avg. power consumption (W):  33.0591
-Domain intel-rapl:0/intel-rapl:0:0 (dram) energy consumption (j):  92.5698
-Domain intel-rapl:0/intel-rapl:0:0 (dram) avg. power consumption (W):   1.6101
-Domain intel-rapl:1 (package-0) energy consumption (j): 2523.4814
-Domain intel-rapl:1 (package-0) avg. power consumption (W):  43.8912
-Domain intel-rapl:1/intel-rapl:1:0 (dram) energy consumption (j): 169.6276
-Domain intel-rapl:1/intel-rapl:1:0 (dram) avg. power consumption (W):   2.9504
+Recorded wall time (s):  45.3810
+Domain intel-rapl:0 (package-0) energy consumption (j): 1225.5607
+Domain intel-rapl:0 (package-0) avg. power consumption (W):  27.0060
+Domain intel-rapl:0/intel-rapl:0:0 (dram) energy consumption (j): 275.0042
+Domain intel-rapl:0/intel-rapl:0:0 (dram) avg. power consumption (W):   6.0599
+Domain intel-rapl:1 (package-1) energy consumption (j): 884.3634
+Domain intel-rapl:1 (package-1) avg. power consumption (W):  19.4875
+Domain intel-rapl:1/intel-rapl:1:0 (dram) energy consumption (j):   0.0010
+Domain intel-rapl:1/intel-rapl:1:0 (dram) avg. power consumption (W):   0.0000
